@@ -3,8 +3,10 @@ var generateBtn = document.querySelector("#generate");
 var allChoices = "";
 
 //This will prompt the user and ask how long do they want their password.
-var howlong = prompt("How long do you want the password?");
+
+var howlong = prompt("How long do you want the password? Choose between 8-128 characters");
 console.log(howlong);
+
 
 //This will confirm if the user wants uppercase letters
 var wantupper = confirm("Do you want Uppercase letters?");
